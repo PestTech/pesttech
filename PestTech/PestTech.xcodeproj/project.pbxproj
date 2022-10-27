@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05F6A4C8CD95E7A814F1D568 /* Pods_PestTech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51B31C2E784ECE56131FA5D5 /* Pods_PestTech.framework */; };
+		13BA5C1B16D7D036471AEB93 /* Pods_PestTechTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA8A167C7155BFF9DEB0F10 /* Pods_PestTechTests.framework */; };
+		D341158E577175B4CAF9A4DF /* Pods_PestTech_PestTechUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A9D77677F7A6C8620FFAB52 /* Pods_PestTech_PestTechUITests.framework */; };
 		FD0439A0290B4C30008938F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD04399F290B4C30008938F1 /* AppDelegate.swift */; };
 		FD0439A2290B4C30008938F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0439A1290B4C30008938F1 /* SceneDelegate.swift */; };
 		FD0439A4290B4C30008938F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0439A3290B4C30008938F1 /* ViewController.swift */; };
@@ -36,6 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3548DF3E429FEB848464E86D /* Pods-PestTechTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PestTechTests.debug.xcconfig"; path = "Target Support Files/Pods-PestTechTests/Pods-PestTechTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A9D77677F7A6C8620FFAB52 /* Pods_PestTech_PestTechUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PestTech_PestTechUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51B31C2E784ECE56131FA5D5 /* Pods_PestTech.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PestTech.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AA1709C2B654BB368DF7B97 /* Pods-PestTechTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PestTechTests.release.xcconfig"; path = "Target Support Files/Pods-PestTechTests/Pods-PestTechTests.release.xcconfig"; sourceTree = "<group>"; };
+		942B312DE0D7D9080CD4256D /* Pods-PestTech-PestTechUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PestTech-PestTechUITests.release.xcconfig"; path = "Target Support Files/Pods-PestTech-PestTechUITests/Pods-PestTech-PestTechUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9D9E615D9D90953B3F84EFCD /* Pods-PestTech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PestTech.release.xcconfig"; path = "Target Support Files/Pods-PestTech/Pods-PestTech.release.xcconfig"; sourceTree = "<group>"; };
+		9FA8A167C7155BFF9DEB0F10 /* Pods_PestTechTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PestTechTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C19C2280294C4518BB4A1659 /* Pods-PestTech-PestTechUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PestTech-PestTechUITests.debug.xcconfig"; path = "Target Support Files/Pods-PestTech-PestTechUITests/Pods-PestTech-PestTechUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC870A2BEE06DC0BD2E22D49 /* Pods-PestTech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PestTech.debug.xcconfig"; path = "Target Support Files/Pods-PestTech/Pods-PestTech.debug.xcconfig"; sourceTree = "<group>"; };
 		FD04399C290B4C30008938F1 /* PestTech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PestTech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD04399F290B4C30008938F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD0439A1290B4C30008938F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05F6A4C8CD95E7A814F1D568 /* Pods_PestTech.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13BA5C1B16D7D036471AEB93 /* Pods_PestTechTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D341158E577175B4CAF9A4DF /* Pods_PestTech_PestTechUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7872BFEDF565C33BEFED70D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51B31C2E784ECE56131FA5D5 /* Pods_PestTech.framework */,
+				3A9D77677F7A6C8620FFAB52 /* Pods_PestTech_PestTechUITests.framework */,
+				9FA8A167C7155BFF9DEB0F10 /* Pods_PestTechTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F588A227DDD3DAF66E2C0576 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC870A2BEE06DC0BD2E22D49 /* Pods-PestTech.debug.xcconfig */,
+				9D9E615D9D90953B3F84EFCD /* Pods-PestTech.release.xcconfig */,
+				C19C2280294C4518BB4A1659 /* Pods-PestTech-PestTechUITests.debug.xcconfig */,
+				942B312DE0D7D9080CD4256D /* Pods-PestTech-PestTechUITests.release.xcconfig */,
+				3548DF3E429FEB848464E86D /* Pods-PestTechTests.debug.xcconfig */,
+				8AA1709C2B654BB368DF7B97 /* Pods-PestTechTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FD043993290B4C30008938F1 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +122,8 @@
 				FD0439B5290B4C31008938F1 /* PestTechTests */,
 				FD0439BF290B4C31008938F1 /* PestTechUITests */,
 				FD04399D290B4C30008938F1 /* Products */,
+				F588A227DDD3DAF66E2C0576 /* Pods */,
+				7872BFEDF565C33BEFED70D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,6 +175,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD0439C6290B4C31008938F1 /* Build configuration list for PBXNativeTarget "PestTech" */;
 			buildPhases = (
+				9F6F9B39B1C32FA8B47DF7ED /* [CP] Check Pods Manifest.lock */,
 				FD043998290B4C30008938F1 /* Sources */,
 				FD043999290B4C30008938F1 /* Frameworks */,
 				FD04399A290B4C30008938F1 /* Resources */,
@@ -151,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD0439C9290B4C31008938F1 /* Build configuration list for PBXNativeTarget "PestTechTests" */;
 			buildPhases = (
+				3AA66C4823ADB75C6FCC14EC /* [CP] Check Pods Manifest.lock */,
 				FD0439AE290B4C31008938F1 /* Sources */,
 				FD0439AF290B4C31008938F1 /* Frameworks */,
 				FD0439B0290B4C31008938F1 /* Resources */,
@@ -169,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD0439CC290B4C31008938F1 /* Build configuration list for PBXNativeTarget "PestTechUITests" */;
 			buildPhases = (
+				BBD044BA114B92E56CF1AA94 /* [CP] Check Pods Manifest.lock */,
 				FD0439B8290B4C31008938F1 /* Sources */,
 				FD0439B9290B4C31008938F1 /* Frameworks */,
 				FD0439BA290B4C31008938F1 /* Resources */,
@@ -252,6 +296,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AA66C4823ADB75C6FCC14EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PestTechTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F6F9B39B1C32FA8B47DF7ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PestTech-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBD044BA114B92E56CF1AA94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PestTech-PestTechUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FD043998290B4C30008938F1 /* Sources */ = {
@@ -432,6 +545,7 @@
 		};
 		FD0439C7290B4C31008938F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC870A2BEE06DC0BD2E22D49 /* Pods-PestTech.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -459,6 +573,7 @@
 		};
 		FD0439C8290B4C31008938F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D9E615D9D90953B3F84EFCD /* Pods-PestTech.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -486,6 +601,7 @@
 		};
 		FD0439CA290B4C31008938F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3548DF3E429FEB848464E86D /* Pods-PestTechTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +621,7 @@
 		};
 		FD0439CB290B4C31008938F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AA1709C2B654BB368DF7B97 /* Pods-PestTechTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +641,7 @@
 		};
 		FD0439CD290B4C31008938F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C19C2280294C4518BB4A1659 /* Pods-PestTech-PestTechUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,6 +659,7 @@
 		};
 		FD0439CE290B4C31008938F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 942B312DE0D7D9080CD4256D /* Pods-PestTech-PestTechUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

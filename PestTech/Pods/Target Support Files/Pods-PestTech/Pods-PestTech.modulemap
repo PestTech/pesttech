@@ -1,0 +1,6 @@
+framework module Pods_PestTech {
+  umbrella header "Pods-PestTech-umbrella.h"
+
+  export *
+  module * { export * }
+}
