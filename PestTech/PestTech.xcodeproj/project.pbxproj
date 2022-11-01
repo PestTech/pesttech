@@ -111,7 +111,6 @@
 				3548DF3E429FEB848464E86D /* Pods-PestTechTests.debug.xcconfig */,
 				8AA1709C2B654BB368DF7B97 /* Pods-PestTechTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,8 +143,8 @@
 				FD0439A1290B4C30008938F1 /* SceneDelegate.swift */,
 				FD0439A3290B4C30008938F1 /* ViewController.swift */,
 				FD0439A5290B4C30008938F1 /* Main.storyboard */,
-				FD0439A8290B4C31008938F1 /* Assets.xcassets */,
 				FD0439AA290B4C31008938F1 /* LaunchScreen.storyboard */,
+				FD0439A8290B4C31008938F1 /* Assets.xcassets */,
 				FD0439AD290B4C31008938F1 /* Info.plist */,
 			);
 			path = PestTech;
