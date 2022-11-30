@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		05F6A4C8CD95E7A814F1D568 /* Pods_PestTech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51B31C2E784ECE56131FA5D5 /* Pods_PestTech.framework */; };
 		13BA5C1B16D7D036471AEB93 /* Pods_PestTechTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA8A167C7155BFF9DEB0F10 /* Pods_PestTechTests.framework */; };
+		53D01DA8292602F200BE67D8 /* PesticideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D01DA7292602F200BE67D8 /* PesticideViewController.swift */; };
 		D341158E577175B4CAF9A4DF /* Pods_PestTech_PestTechUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A9D77677F7A6C8620FFAB52 /* Pods_PestTech_PestTechUITests.framework */; };
 		FD0439A0290B4C30008938F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD04399F290B4C30008938F1 /* AppDelegate.swift */; };
 		FD0439A2290B4C30008938F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0439A1290B4C30008938F1 /* SceneDelegate.swift */; };
@@ -44,6 +45,7 @@
 		3548DF3E429FEB848464E86D /* Pods-PestTechTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PestTechTests.debug.xcconfig"; path = "Target Support Files/Pods-PestTechTests/Pods-PestTechTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3A9D77677F7A6C8620FFAB52 /* Pods_PestTech_PestTechUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PestTech_PestTechUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51B31C2E784ECE56131FA5D5 /* Pods_PestTech.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PestTech.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53D01DA7292602F200BE67D8 /* PesticideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PesticideViewController.swift; sourceTree = "<group>"; };
 		8AA1709C2B654BB368DF7B97 /* Pods-PestTechTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PestTechTests.release.xcconfig"; path = "Target Support Files/Pods-PestTechTests/Pods-PestTechTests.release.xcconfig"; sourceTree = "<group>"; };
 		942B312DE0D7D9080CD4256D /* Pods-PestTech-PestTechUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PestTech-PestTechUITests.release.xcconfig"; path = "Target Support Files/Pods-PestTech-PestTechUITests/Pods-PestTech-PestTechUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9D9E615D9D90953B3F84EFCD /* Pods-PestTech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PestTech.release.xcconfig"; path = "Target Support Files/Pods-PestTech/Pods-PestTech.release.xcconfig"; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				FD0439AD290B4C31008938F1 /* Info.plist */,
 				FDE50D9A2911C7BD00A28D86 /* ListViewController.swift */,
 				FDE50D9C2911C7FA00A28D86 /* ListCell.swift */,
+				53D01DA7292602F200BE67D8 /* PesticideViewController.swift */,
 			);
 			path = PestTech;
 			sourceTree = "<group>";
@@ -417,6 +420,7 @@
 				FDE50D9B2911C7BD00A28D86 /* ListViewController.swift in Sources */,
 				FDE50D9D2911C7FA00A28D86 /* ListCell.swift in Sources */,
 				FD0439A2290B4C30008938F1 /* SceneDelegate.swift in Sources */,
+				53D01DA8292602F200BE67D8 /* PesticideViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
