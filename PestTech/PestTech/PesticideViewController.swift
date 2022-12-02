@@ -10,6 +10,9 @@ import Parse
 
 class PesticideViewController: UIViewController {
     
+    var addingToList = [PFObject]()
+    
+    
     @IBOutlet weak var locationText: UITextField!
     
     @IBOutlet weak var dateMonth: UITextField!
@@ -31,6 +34,7 @@ class PesticideViewController: UIViewController {
     
     @IBOutlet weak var dilution: UITextField!
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -38,6 +42,27 @@ class PesticideViewController: UIViewController {
     }
     
     
+    @IBAction func saveButton(_ sender: Any) {
+        var user = PFObject(className: "Pesticide")
+        
+        user["location"] = locationText.text!
+        //user["author"] = PFUser.current()!
+        user["author"] = "Test"
+        var saveString = dateMonth.text! + " " + dateDay.text! + " " + dateYear.text!
+        user["date"] = saveString
+        user["application"] = appType.text!
+        user["commondity"] = commondityTreat.text!
+        user["treated"] = treatedArea.text!
+        user["pesticide"] = pesticideName.text!
+        user["epanumber"] = epaNumber.text!
+        user["measureunit"] = measuringUnit.text!
+        user["rateunit"] = rateUnit.text!
+        user["dilution"] = dilution.text!
+
+        //user.username = usernameField.text
+        
+        
+    }
     
     
     
